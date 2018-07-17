@@ -5,8 +5,7 @@ class Helpers
   end
 
   def self.is_logged_in?(session)
-    user = User.find_by(id: session[:user_id])
-    if !user
+    if User.find_by(id: session[:user_id])
       false
     else
       true
