@@ -10,7 +10,7 @@
 
       <% if Helper.is_logged_in?(session) %>
         <h3>Hello, <%= current_user.username %>!</h3>
-        <h4>Your current balance is $<%= @user.balance.to_s %>.</h4>
+        <h4>Your current balance is $<%= current_user.balance.to_s %>.</h4>
       <% else %>
         <a href="/index">Home Page</a>
       <% end %>
