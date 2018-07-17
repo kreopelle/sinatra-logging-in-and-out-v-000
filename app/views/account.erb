@@ -7,7 +7,6 @@
   </head>
   <body id="page-top">
       <a href="/logout">Log Out</a>
-              <% binding.pry %>
 
       <% if Helpers.is_logged_in?(session) %>
         <h1>Welcome <%= Helpers.current_user(session).username %></h1>
