@@ -11,6 +11,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/login' do
+    @user = 
 
   end
 
@@ -24,4 +25,3 @@ class ApplicationController < Sinatra::Base
 
 
 end
-
