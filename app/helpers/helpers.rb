@@ -9,7 +9,7 @@ class Helpers
     if !user 
       false
     else 
-      false
+      true
     end 
   end
   
