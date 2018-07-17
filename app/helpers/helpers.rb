@@ -4,6 +4,6 @@ class Helpers
     if user ? true : false
   end
 
-  def is_logged_ind?
+  def is_logged_in?
   end
 end
