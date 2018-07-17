@@ -9,7 +9,7 @@
       <a href="/logout">Log Out</a>
 
       <% if Helper.is_logged_in?(session) %>
-        <h3>Hello, <%= Helper.current_user(session).username %>!</h3>
+        <h3>Welcome <%= Helper.current_user(session).username %></h3>
         <h4>Your current balance is $<%= Helper.current_user(session).balance.to_s %>.</h4>
       <% else %>
         <a href="/index">Home Page</a>
