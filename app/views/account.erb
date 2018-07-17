@@ -11,7 +11,8 @@
       <% if Helper.is_logged_in?(session) %>
         <h3>Hello, <%= @user.username %>!</h3>
         <h4>Your current balance is $<%= @user.balance.to_s %>.</h4>
-      <% 
+      <% else %>
+        <a href="/index"
 
   </body>
 </html>
