@@ -9,7 +9,8 @@
       <a href="/logout">Log Out</a>
 
       <% if Helper.is_logged_in?(session) %>
-        <%=
+        <%= @user.username %>
+        <%= @user.balance %>
 
   </body>
 </html>
