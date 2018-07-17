@@ -1,6 +1,6 @@
 class Helpers
   def current_user(session)
-    user = User.find_by(id: session[:id])
+    user = User.find_by(user_id: session[:id])
     if !user ? false : true
   end
 
