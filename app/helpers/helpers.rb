@@ -6,10 +6,6 @@ class Helpers
 
   def self.is_logged_in?(session)
     if !!self.current_user(session)
-      false
-    else
-      true
-    end
   end
 
 end
