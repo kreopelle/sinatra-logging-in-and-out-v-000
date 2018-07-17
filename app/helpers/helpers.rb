@@ -6,8 +6,8 @@ class Helpers
     else 
       true
     end
-  end 
+  end
 
   def is_logged_ind?
-  end 
+  end
 end
